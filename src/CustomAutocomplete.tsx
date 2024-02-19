@@ -75,7 +75,7 @@ const CustomAutocomplete = () => {
                             />
                         </ListItemDecorator>
                         <ListItemContent sx={{
-                            fontSize: 'lg',
+                            fontSize: 'md',
                             color: "text.secondary"
                         }}>
                             {makeSearchedTextBold(option.name, searchInput)}
